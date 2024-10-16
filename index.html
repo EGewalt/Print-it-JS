@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<script src="https://kit.fontawesome.com/6d7b433048.js" crossorigin="anonymous"></script>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Slab:wght@400;900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -17,12 +18,20 @@
 	<a class="btn devis" href="mailto:contact@print-it.tld">Devis</a>
 </header>
 <main>
-	<div id="banner">
+
+	 <!-- Carrousel -->
+	<section id="banner">
+		<button class="arrow arrow_left prev" aria-label="Image précédente">
+			<i class="fas fa-chevron-left"></i>
+		</button>
 		<img class="banner-img" src="./assets/images/slideshow/slide1.jpg" alt="Banner Print-it">
 		<p>Impressions tous formats <span>en boutique et en ligne</span></p>
-		<div class="dots">
-		</div>
-	</div>
+		<div class="dots"></div>
+		<button class="arrow arrow_right next" aria-label="Image suivante">
+			<i class="fas fa-chevron-right"></i>
+		</button>
+	</section>
+	
 	<section id="about-us" class="container">
 		<div>
 			<h2>Qui sommes-nous ?</h2>
@@ -124,5 +133,6 @@
 	</div>
 </footer>
 <script src="./assets/script.js"></script>
+<script src="./assets/carrousel.js" defer></script>
 </body>
 </html>
