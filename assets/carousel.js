@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const bannerText = document.querySelector('#banner p');
     const dotsContainer = document.querySelector('.dots');
 
-    // Utilisez le tableau "slides" de script.js
+    // const "slides" de script.js
     let currentIndex = 0;
 
     // MaJ
